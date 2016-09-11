@@ -1,0 +1,36 @@
+body {
+  padding-top: 70px;
+  font-family: Baskerville, "Baskerville Old Face", Palatino, "Book Antiqua", Georgia, serif;
+  color: white;
+  background-color: black;
+ }
+
+.navbar {
+   background-color: #266A2E;
+   text-shadow: 1px 1px black;
+   font-size: 18px;
+ }
+
+#bs-example-navbar-collapse-1 .navbar-nav li a {
+   color: #E8B20C;
+ }
+
+ .separator {
+   display: flex;
+   justify-content: space-between;
+ }
+
+.table-hover > tbody > tr:hover {
+   background-color: #266A2E;
+ }
+
+.logo {
+ display: flex;
+ align-content: center;
+ align-items: center;
+}
+
+.checks {
+ display: flex;
+ justify-content: space-between;
+}

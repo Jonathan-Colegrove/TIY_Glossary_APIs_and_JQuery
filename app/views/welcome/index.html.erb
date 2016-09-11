@@ -1,0 +1,7 @@
+<h1>5 Most Recent Terms</h1>
+<div class="most_recent">
+  <% @terms.each do |term| %>
+    <%= link_to term.name, term_path(term) %>
+    <br>
+  <% end %>
+</div>
