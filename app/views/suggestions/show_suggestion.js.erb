@@ -1,1 +1,5 @@
-$(".found-definitions").html("<ul><% @definitions.each do |definition| %><li><%= j(definition) %></li><% end %></ul>")
+<% if @definitions.empty? %>
+  $(".found-definitions").html('<div class="alert alert-danger" role="alert">Sorry, no definitions found for <%= j(@term) %></div>')
+<% else %>
+  $(".found-definitions").html("<ul><% @definitions.each do |definition| %><li><%= j(definition) %></li><% end %></ul>")
+<% end %>

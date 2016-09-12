@@ -15,6 +15,10 @@ body {
     margin: 0 1em;
 }
 
+.found-definitions li {
+  cursor: pointer;
+}
+
 .navbar {
    background-color: #266A2E;
    text-shadow: 1px 1px black;
