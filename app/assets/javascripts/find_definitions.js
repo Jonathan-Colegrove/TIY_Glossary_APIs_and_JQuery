@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).on("turbolinks:load", function() {
 
   $(".find-definitions").on("click", function() {
     // Get the term from the form
