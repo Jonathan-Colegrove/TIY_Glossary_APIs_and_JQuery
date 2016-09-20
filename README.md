@@ -1,11 +1,10 @@
 TIY Glossary: When you need to know, we've got you covered.
 
+This is our TIY Glossary app fitted with an `API` & using `JQuery`.
+
+I learned a lot doing this, as I previously did not know about `API`s & had not used `JQuery` in a long time or in this way.
+
 <pre style="font: 10px/5px monospace;">                                                                                    
-
-
-
-
-
                                         .++.                                        
                                        ######                                       
                                      ##########                                     
